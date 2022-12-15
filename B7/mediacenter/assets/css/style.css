@@ -61,7 +61,7 @@ nav .active a, nav a:hover {
 #banner {
     display:flex;
     justify-content: center;
-    background-image:url('/mediacenter/assets/images/banner.jpg');
+    background-image:url('/B7/mediacenter/assets/images/banner.jpg');
     background-position: center;
     background-size: cover;
     height: 670px;
