@@ -1,0 +1,158 @@
+PASSO A PASSO FULLSTACK
+- Front-end:
+HTML 5
+CSS3
+JAVASCRIPT 
+BOOTSTRAP
+VUE x REACT x ANGULAR (testar e decidir qual vou querer focar)
+- Back-end(durante o estudo do front chego naturalmente ao back:
+PHP x NODE (testar e decidir qual vou querer focar)
+SE ESCOLHER PHP: laravel
+SE ESCOLHER NODE: express
+- Mobile
+REACT NATIVE x FLUTTER (testar e decidir qual vou querer focar)
+
+LEITURA  DE LIVROS
+Código Limpo, TDD, DDD, Design Patterns
+
+
+=AULAS=
+===================
+	TAGS
+===================
+h = head da página
+
+a href = colocar link no texto   <a href="https://lipsum.com"> Lorem Ipsum </a> 
+
+p = paragrafo
+
+br = Pular linha
+
+b = negrito
+strong = Negrito + semantinca de importância ( destaca para o deficiente visual)
+
+i = itálico
+em = itálico + semantica de importância ( destaca para o deficiente visual)
+
+del = risca o texto
+
+mark = grifa o texto
+
+sup = sobe a letra do texto  1ª
+
+sub = desce a letra no texto 1a
+
+<!-- texto comentário --> = Quando vc qr fazer um comentario somente para o programador ( fica só no código) você usa a tag <!-- texto comentário --> (normalmente os textos ficam verdes)
+
+hover = quando quer alguma ação somente quando passa o mouse ( seja ele texto que muda de cor ou que fica sublinhado qnd passa o mouse)
+
+ul - lista desordenada
+
+ol - lista ordenada
+
+
+=====================
+==CRIAÇAO DE TABELA==
+=====================
+
+table = 
+
+
+== INSERÇÃO DE FORMULÁRIOS ==
+
+<input type="text">  formulario de texto --> se quiser colocar algum texto padrão, add value"" ( exemplo:  <input type="text" value"@gmail.com"> no formulário já estará o @gmail.com
+<input type="password"> formulario de senha
+<input type="checkbox"> checkbox ( marcador de vários itens)
+<input type="radio" name="sexo"> marcador, porém marca uma ou outra ( exem: sexo masculino ou fem)
+<input type="submit"> - tag para envio do formulário ( por padrão o botão estará escrito enviar) para alterar add value:""
+<input type="email"> - tag igual text porém obriga a colocar um email 
+
+<input type="datetime-local" name="usuario"> - data e hora
+<input type="date" name="usuario"> - data
+<input type="color" name="usuario"> - cor
+<input type="month" name="usuario"> - mes
+<input type="number" name="usuario"> - só aceita numeral
+<input type="range" name="usuario"> - abre uma barrinha ----o--
+<input type="search" name="usuario"> - igual ao text
+<input type="tel" name="usuario"> - telefone
+<input type="time" name="usuario"> - tempo
+<input type="week" name="usuario"> - envia a semana do ano
+
+
+-SELECT-
+  <select name="ordenacao">
+            <option> mais vendidos </option>
+            <option> mais recentes </option>
+            <option> marbarato </option>
+         </select>   
+----> abre uma aba com essas opções 
+  <select name="ordenacao">
+            <option value"bestseller"> mais vendidos </option>
+            <option value"last"> mais recentes </option>
+            <option> marbarato </option>
+         </select>   
+----> abre uma aba com essas opções e com value, envia o valor do value ( na página do user)
+
+
+         <select name="order">
+            <option value="bestseller"> mais vendidos </option>
+            <option value="last" selected> mais recentes </option>
+            <option> marbarato </option>
+         </select>   
+
+----> adicionando o selected na tag, a página já abre com o pre selecionado da tag, no caso vai aparecer o "mais recentes"
+
+
+-----
+<select name="order" size="2" multiple>
+            <option value="bestseller"> mais vendidos </option>
+            <option value="last" selected> mais recentes </option>
+            <option> marbarato </option>
+         </select>   
+---> add o size e multiple, você deixa o usuario selecionar mais de uma option
+
+
+===TEXTAREA====
+<textarea name="descricao"> </textarea> - abre uma caixa maior no formulário (obrigatório colocar o name"")
+
+===BUTTON===
+        <button>texto do proprio botao</button>		--- praticamente funciona igual o envio do formulario no input type "submit", porém no java tem outras funcionalidades
+
+
+===LABEL=== pode ser usado de duas formas
+<label for="nome">Nome completo</label>
+        <br>
+       <input type="text"name="nome" id="nome">
+
+ou 
+<label>
+            Numero:
+        <br>
+            <input type="number">
+        </label>
+
+
+_____--------_________------________
+
+Sempre que o formulario tiver arquivos, colocar 
+
+<form method="post" action="abcd.php" enctype="multipart/form-data">
+
+
+--------------===========--------------------
+
+TAG ( principalmente de motores de busca SEO)
+Footer - rodapé da página
+Header - efeito de motores de busca
+nav - destaca a informação para deficientes
+section - efeito de motores de busca ( separar a página em vários assuntos)
+article - motor de busca ( conteudo principal da página" noticia específica, titulo e etc")
+aside - ao contrário do article ( interpretado como conteudo secundário da página, nao vai ser tão destacado)
+time - o dia preferido é do <time datetime="1600-01-01"> meu niver </time> ( tbm pra SEO
+
+
+Data -  <div data-nome="guilherme"data-sobrenome="Paterno"> ola tudo certo? ( não aparece na página só fica no codigo e é utilizado para integraçao com outras tecs.)
+
+Placeholder - é um texto que preve o que precisa ser digitado no campo ( usuario: senha:)
+
+autofocus - dentro da tag do input vc deixa o cursor no campo selecionado pronto para digitar  <input type="text" name="usuario" placeholder="Procurar" autofocus>

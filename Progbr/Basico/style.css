@@ -1,0 +1,106 @@
+
+/*paragrafos{
+    color: red;
+    background-color: blue;  
+    
+}
+
+#subpara{
+    background-color: yellow;
+    font-size: 20px;
+    font: bold;
+    
+}*/
+
+
+#titulo {
+    color: blue;
+}
+
+.texto_verde{
+    color: rgb(8, 172, 8);
+}
+
+#cm {
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm {
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+}
+
+#in {
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+}
+
+#px {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+#pt {
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc {
+    background-color: red;
+    width: 1pc;
+    height: 1pc;
+}
+
+
+
+.borda{
+    border: 5px dashed red;
+
+}
+
+p{
+   font-family: pacifico, arial;
+   font-style: normal;
+   text-decoration: none;
+   }
+
+   .links{
+   text-decoration: none;
+    color: red;
+    background: blue;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: 2px solid black;
+    
+
+   }
+
+   .links:active {
+    background-color: green;
+    color: white;
+   }
+
+   ul{
+    list-style-type: square;
+    list-style-position: inside;
+   }
+
+   ol{
+    list-style-type: lower-alpha;
+   }
+
+li{
+    border: 1px solid;
+}
+
+
+
+

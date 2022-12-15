@@ -1,0 +1,113 @@
+body{
+    background-color: rgba(245, 149, 149, 0.918);
+    
+}
+
+
+#div_titulo{
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(248, 115, 115, 0.959);
+    color: white;
+    width: 500px;
+    height: 60px;
+    margin-left:25%;
+    padding-top:initial;
+    border-radius: 10px;
+    margin-top: 50px;
+    float: center;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#div_titulo :hover{
+    opacity: 0.7;
+   
+    }
+
+
+button {
+    color: aliceblue;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(245, 176, 176);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px;
+    text-decoration: none;    
+    
+}
+button:hover{
+    opacity: 0.8;
+    box-shadow: 1px 1px rgb(37, 37, 37);
+    
+}
+button:hover{
+    color:  rgb(26, 24, 24);
+    border-radius: 10px;
+    width: 155px;
+    height: 55px;
+    background-color:  rgb(219, 145, 145);
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px;
+}
+
+#text{
+    background-color: rgba(255, 175, 138, 0.863);
+    height: 25px;
+    width: 155px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0px;
+    margin-top: 3px;
+
+    }
+
+#submit{
+    border-radius: 90px;
+    width: 90px;
+    height: 35px;
+    margin: 3px;
+    margin-left: 30px;
+    background-color: rgb(218, 214, 214);
+    
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  
+ 
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .fa-instagram{
+    background: #125688;
+    color: white;
+
+  }
+
+  
