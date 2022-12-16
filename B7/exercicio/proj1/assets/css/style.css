@@ -181,3 +181,19 @@ a {
 .primeirolink :hover{
     opacity: 0.6;
 }
+
+
+@media (max-width:650px){
+    p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div .descrcarreira {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .titulo1{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
