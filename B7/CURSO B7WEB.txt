@@ -15,6 +15,16 @@ REACT NATIVE x FLUTTER (testar e decidir qual vou querer focar)
 LEITURA  DE LIVROS
 Código Limpo, TDD, DDD, Design Patterns
 
+banner
+ display: flex;
+    justify-content: center;
+    width: 310px;
+    height:420px;
+    border: 1px solid rgb(26, 25, 25);
+    margin:10px;
+   
+
+
 
 =AULAS=
 ===================
